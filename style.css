@@ -1,0 +1,121 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#4D4D4D;
+    color: white;
+    text-align: center;
+}
+
+/* Para may style sa header */
+header {
+    background: #242124;
+    color: white;
+    padding: 30px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* style para sa navigation bar*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #363636;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #A9A9A9;
+    border-radius: 5px;
+}
+
+/* Para sa main content sections */
+section {
+    padding: 30px;
+    background: #686C6F;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px white;
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+/* Para sa mga embedded elements */
+iframe {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    height: 315px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 10px white;
+}
+
+/* Style para sa mga images */
+img {
+    width: 50%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;   
+}
+.entity{
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 50px; /* Space para sa lists */
+  }
+  ul {
+    list-style-type: none; /* Para mawagtang ang bulletpoints*/
+    padding: 0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.5em;
+}
+
+/* Para may style ang footer*/
+footer {
+    background: #242124;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 1rem;
+}
